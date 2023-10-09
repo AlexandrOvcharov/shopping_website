@@ -1,5 +1,78 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 46px;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+
+.logo {
+  width: 31.265px;
+  height: 29px;
+  cursor: pointer;
+}
+
+.logo_title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.nav {
+  display: flex;
+  gap: 65px;
+  color: #000;
+}
+
+.nav a {
+  position: relative;
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.22px;
+  transition: all 0.2s linear;
+}
+
+.nav a::before {
+  content: "";
+
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+  width: 0;
+  height: 2px;
+  background: #000;
+  z-index: 10;
+  transition: all 0.2s linear;
+}
+
+.nav a:hover {
+  color: #222121;
+}
+
+.nav a:hover::before {
+  width: 100%;
 }
