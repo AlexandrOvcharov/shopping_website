@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 46px;
+  padding-top: 46px;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
@@ -34,6 +34,7 @@
   font-weight: 900;
   line-height: normal;
   letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
 .nav {
   display: flex;

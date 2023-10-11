@@ -7,7 +7,7 @@ function Header() {
       <div className="header_left">
         <img className="logo" src={logoImg} alt="" />
         <a className="logo_title" href="#">
-          Fasion
+          FASHION
         </a>
       </div>
       <div className="header_right">
