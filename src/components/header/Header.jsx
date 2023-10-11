@@ -1,5 +1,6 @@
 import "./header.css";
 import logoImg from "./../../img/icons/logo.svg";
+import Btn from "../btn/Btn";
 
 function Header() {
   return (
@@ -17,7 +18,7 @@ function Header() {
           <a href="#">FAVOURITE</a>
           <a href="#">LIFESTYLE</a>
         </nav>
-        <button className="btn header_btn">SIGN UP</button>
+        <Btn className="btn header_btn" text="SING UP" />
       </div>
     </header>
   );
