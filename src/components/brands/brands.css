@@ -1,0 +1,10 @@
+.brands_wrapper {
+  padding: 58px 174px;
+  background: #ebd96b;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
