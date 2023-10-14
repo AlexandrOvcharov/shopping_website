@@ -5,6 +5,7 @@ import "./slyles/common.css";
 import Header from "./components/header/Header";
 import Intro from "./components/intro/Intro";
 import Brands from "./components/brands/Brands";
+import Categories from "./components/categories/Categories";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Intro />
       </div>
       <Brands />
+      <div className="container">
+        <Categories/>
+      </div>
     </div>
   );
 }

@@ -52,3 +52,31 @@ body {
 .elipse--intro {
   top: 60px;
 }
+
+.elipse--title {
+  position: relative;
+}
+
+.elipse--title::after {
+  position: absolute;
+  content: "";
+  background: url(../img/icons/decor-yellow.svg);
+  width: 190px;
+  height: 32px;
+  display: block;
+  bottom: -5px;
+  left: 213px;
+  z-index: -1;
+}
+
+.section-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+}
+

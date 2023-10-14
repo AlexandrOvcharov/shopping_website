@@ -1,0 +1,52 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    transition: all .2s linear;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card--favorite img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card_footer {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 156.25% */
+    letter-spacing: -1.28px;    
+}
+
+.card_text {
+    color: #7F7F7F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 208.333% */
+    letter-spacing: -0.96px;
+}
